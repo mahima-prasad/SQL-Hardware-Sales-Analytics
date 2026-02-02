@@ -41,3 +41,9 @@ The project utilizes a relational database structure consisting of:
 -- Concepts: Data Modeling, Star Schema, CTEs, Window Functions, Stored Procedures, and User-Defined Functions.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📬 Connect with Me
+If you have any feedback, questions, or would like to collaborate on a data project, feel free to reach out!
+
+* **LinkedIn**: [Mahima Prasad](https://www.linkedin.com/in/mahima-prasad-analyst/)
+* **Portfolio**: [Mahima Prasad - Portfolio](https://codebasics.io/portfolio/Mahima-Prasad)
