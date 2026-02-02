@@ -1,51 +1,42 @@
-# **AtliQ Hardware: Sales & Supply Chain Analytics (SQL)**
+# 💻 AtliQ Hardware: Sales & Supply Chain Analytics (SQL)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-📌 Project Overview
+## 📌 Project Overview
+This project provides data-driven insights for **AtliQ Hardware** to optimize sales strategies and supply chain efficiency. Using a **Star Schema** design, I developed complex SQL queries, stored procedures, and views to automate financial reporting and performance tracking.
 
-This project focuses on providing data-driven insights for a hardware company (AtliQ) to improve their sales strategies and supply chain efficiency. Using a Star Schema database design, I developed complex SQL queries, stored procedures, and views to automate financial reporting and performance tracking.
+---
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🏗️ Data Architecture
+The project utilizes a relational database structure designed for high-performance analytics.
 
-🏗️ Data Architecture
+### **Entity Relationship Diagram (ERD)**
+![Database Schema](schema_design.png)
 
-The project utilizes a relational database structure consisting of:
+**The architecture consists of:**
+* **Dimension Tables:** `dim_customer`, `dim_product`, and `dim_date` for descriptive attributes.
+* **Fact Tables:** `fact_sales_monthly`, `fact_act_est`, `fact_forecast_monthly`, and `fact_freight_cost` for quantitative transactions.
+* **Analytics Views:** Pre-calculated metrics for `net_sales`, `gross_sales`, and invoice deductions.
 
--- Dimension Tables: dim_customer, dim_product, and dim_date for descriptive attributes.
+---
 
--- Fact Tables: fact_sales_monthly, fact_act_est, fact_forecast_monthly, and fact_freight_cost to store quantitative transactions.
+## 🚀 Key Features & SQL Logic
+* **Finance Analytics:** Automated the calculation of Gross and Net Sales through optimized **MySQL Views**.
+* **Supply Chain Insights:** Developed **Stored Procedures** to calculate Forecast Accuracy, helping to minimize inventory carrying costs.
+* **Performance Tracking:** Created dynamic procedures to identify **Top N Products** and **Top N Markets** using Window Functions.
+* **Fiscal Reporting:** Built **User-Defined Functions** to handle custom Fiscal Year/Quarter logic.
 
--- Analytics Views: Pre-calculated metrics for net_sales, gross_sales, and invoice deductions.
+---
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🛠️ Tools Used
+* **Database:** MySQL
+* **Modeling:** MySQL Workbench (Star Schema)
+* **Advanced SQL:** CTEs, Window Functions, Stored Procedures, and UDFs.
 
-🚀 Key Features & SQL Logic
+---
 
--- Finance Analytics: Automated the calculation of Gross Sales and Net Sales through optimized MySQL Views.
-
--- Supply Chain Insights: Developed stored procedures to calculate Forecast Accuracy to help reduce inventory costs.
-
--- Performance Tracking: Created dynamic procedures to identify Top N Products and Top N Markets by net sales and quantity sold.
-
--- Fiscal Reporting: Built custom functions to determine Fiscal Year and Fiscal Quarter based on specific business cycles.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🛠️ Tools Used
-
--- Database: MySQL
-
--- Modeling: MySQL Workbench (ER Diagrams)
-
--- Concepts: Data Modeling, Star Schema, CTEs, Window Functions, Stored Procedures, and User-Defined Functions.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📬 Connect with Me
-If you have any feedback, questions, or would like to collaborate on a data project, feel free to reach out!
+## 📬 Connect with Me
+If you have any feedback or would like to collaborate, feel free to reach out!
 
 * **LinkedIn**: [Mahima Prasad](https://www.linkedin.com/in/mahima-prasad-analyst/)
 * **Portfolio**: [Mahima Prasad - Portfolio](https://codebasics.io/portfolio/Mahima-Prasad)
-
-
