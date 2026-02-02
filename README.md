@@ -1,9 +1,15 @@
 AtliQ Hardware: Sales & Supply Chain Analytics (SQL)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📌 Project Overview
+
 This project focuses on providing data-driven insights for a hardware company (AtliQ) to improve their sales strategies and supply chain efficiency. Using a Star Schema database design, I developed complex SQL queries, stored procedures, and views to automate financial reporting and performance tracking.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🏗️ Data Architecture
+
 The project utilizes a relational database structure consisting of:
 
 -- Dimension Tables: dim_customer, dim_product, and dim_date for descriptive attributes.
@@ -12,7 +18,10 @@ The project utilizes a relational database structure consisting of:
 
 -- Analytics Views: Pre-calculated metrics for net_sales, gross_sales, and invoice deductions.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 Key Features & SQL Logic
+
 -- Finance Analytics: Automated the calculation of Gross Sales and Net Sales through optimized MySQL Views.
 
 -- Supply Chain Insights: Developed stored procedures to calculate Forecast Accuracy to help reduce inventory costs.
@@ -21,9 +30,14 @@ The project utilizes a relational database structure consisting of:
 
 -- Fiscal Reporting: Built custom functions to determine Fiscal Year and Fiscal Quarter based on specific business cycles.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Tools Used
+
 -- Database: MySQL
 
 -- Modeling: MySQL Workbench (ER Diagrams)
 
 -- Concepts: Data Modeling, Star Schema, CTEs, Window Functions, Stored Procedures, and User-Defined Functions.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
